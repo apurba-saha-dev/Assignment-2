@@ -78,28 +78,34 @@
     margin-bottom: 120px;
     /* gap: 5px; */
 }
+
 .div_1 {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
+
 .p_1 {
     color: #E95A08;
     font-size: 65px;
     font-weight: 700;
 }
+
 .ff {
     margin-bottom: 13px;
 }
+
 .p_1_span {
     color: black;
 }
+
 .p_2 {
     color: rgba(0, 0, 0, 0.5);
     font-size: 16px;
     font-weight: 400;
 }
+
 .div_2 {
     width: 50%;
     display: flex;
@@ -109,9 +115,10 @@
 
 /* Header Section Ends */
 /* Plants Section Starts*/
-.section_plants{
+.section_plants {
     margin-bottom: 210px;
 }
+
 .heading_area {
     text-align: center;
     margin-bottom: 49px;
@@ -123,6 +130,7 @@
     font-weight: 700;
     margin-bottom: 16px;
 }
+
 .plants_description {
     color: rgba(0, 0, 0, 0.5);
     font-size: 16px;
@@ -175,58 +183,117 @@
     font-size: 14px;
     border: none;
 }
-.add_to_cart a{
+
+.add_to_cart a {
     text-decoration: none;
     color: white;
 }
+
 /* Plants Section Ends*/
 /* Trusted Seller Section Starts */
 .trusted_content {
-  display: flex;
-  gap: 60px;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-bottom: 133px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 133px;
 }
 
 .trusted_image_container {
-  position: relative;
-  flex: 1;
-  max-width: 50%;
+    position: relative;
+    flex: 1;
+    width: 50%;
 
 }
+
 .first_image {
-  width: 100%;
-  height: 400px;
+    width: 100%;
+    height: 400px;
 }
 
 .trusted_badge {
-  position: absolute;
-  top: -75px;
-  left: 80%;
-  width: 170px;
-  height: 170px;
+    position: absolute;
+    top: -75px;
+    left: 80%;
+    width: 170px;
+    height: 170px;
 }
 
 .trusted_text {
-  flex: 1;
-  width: 50%;
+    flex: 1;
+    width: 50%;
 }
 
 .trusted_text h2 {
-  font-size: 28px;
-  font-weight: 700;
-  margin-bottom: 16px;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 16px;
 }
 
 .trusted_text ul {
-  padding-left: 20px;
+    padding-left: 20px;
 }
 
 .trusted_text li {
-  margin-bottom: 12px;
-  color: rgba(0, 0, 0, 0.7);
-  font-size: 16px;
-  line-height: 1.6;
+    margin-bottom: 12px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 16px;
+    line-height: 1.6;
 }
+
+/* Trusted Seller Section Ends */
+/* Latest Deals Section Starts */
+.latest_deals_Section {
+    margin-bottom: 120px;
+}
+
+.deals_div {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.deals-container {
+    display: flex;
+    gap: 20px;
+    height: 420px;
+}
+
+.deals-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 35%;
+}
+
+.deal-card {
+    flex: 1;
+    border-radius: 12px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.bloom {
+    background-image: url('./assets/deal-bloom.png');
+}
+
+.ana {
+    background-image: url('./assets/deal-ana.png');
+}
+
+.zabo {
+    background-image: url('./assets/deal-zabo.png');
+    width: 65%;
+}
+.zabo h3{
+    font-size: 40px;
+}
+.zabo p{
+    font-size: 28px;
+}
+/* Latest Deals Section Ends */
