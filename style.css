@@ -297,3 +297,44 @@
     font-size: 28px;
 }
 /* Latest Deals Section Ends */
+/* Join Bunch Section Starts */
+.newsletter {
+  background-image: url('./assets/news-letter-bg.png');
+  background-size: cover;
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.newsletter h2 {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.newsletter-form {
+  display: flex;
+  width: 600px;
+}
+
+.email-input {
+  flex: 1;
+  padding: 16px 20px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.subscribe-btn {
+  background-color: #ff4d00;
+  color: white;
+  border: none;
+  padding: 0 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* Join Bunch Section Ends */
