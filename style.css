@@ -74,7 +74,7 @@
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 120px;
-
+    /* gap: 5px; */
 }
 
 .div_1 {
@@ -89,7 +89,8 @@
     font-size: 65px;
     font-weight: 700;
 }
-.ff{
+
+.ff {
     margin-bottom: 13px;
 }
 
@@ -99,7 +100,7 @@
 
 .p_2 {
     color: rgba(0, 0, 0, 0.5);
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -112,21 +113,70 @@
 
 /* header ends */
 /* Plants section */
+.section_plants{
+    margin-bottom: 210px;
+}
+.heading_area {
+    text-align: center;
+    margin-bottom: 49px;
+}
 
-/* .p_3 {
+.plants_title {
     color: #E95A08;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 16px;
 }
+.plants_description {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    /* max-width: 888px; */
+    margin: 0px 200px;
+}
 
-.span_2 {
+.plants_title span {
     color: black;
 }
 
-.p_4 {
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 22px;
-    font-weight: 400;
+.plants_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
 
-} */
+}
+
+.plant_card {
+    text-align: center;
+    /* width: 100%; */
+    /* max-width: 220px; */
+}
+
+.plant_card img {
+    width: 100%;
+    height: auto;
+}
+
+.plant_name {
+    color: #111111;
+    font-weight: 500;
+    margin: 12px 0 4px;
+}
+
+.plant_price {
+    color: #111111;
+    font-weight: 700;
+    margin-bottom: 12px;
+    margin-bottom: 17px;
+}
+
+.add_to_cart {
+    width: 100%;
+    padding: 12px 0;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+}
