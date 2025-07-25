@@ -243,6 +243,20 @@
     font-size: 16px;
     line-height: 1.6;
 }
+.trusted_badge {
+  animation: spinBadge 1s linear infinite;
+  display: inline-block;
+}
+
+/* Keyframes for spinning */
+@keyframes spinBadge {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(90000deg);
+  }
+}
 
 /* Trusted Seller Section Ends */
 /* Latest Deals Section Starts */

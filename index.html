@@ -192,6 +192,20 @@
             </div>
         </section>
     </footer>
+
+    <script>
+  // Wait until the DOM is fully loaded
+  document.addEventListener("DOMContentLoaded", function () {
+    const buttons = document.querySelectorAll(".add_to_cart");
+
+    buttons.forEach(button => {
+      button.addEventListener("click", function () {
+        alert("Flower Added to Cart");
+      });
+    });
+  });
+</script>
+
 </body>
 
 </html>
